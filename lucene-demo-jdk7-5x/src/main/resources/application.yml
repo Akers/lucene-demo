@@ -1,0 +1,13 @@
+server:
+  port: 8081
+  context-path: '/lucene-demo'
+
+lucene: 
+  index-path: 'D:/lucenedemo/index'
+  backup-path: 'D:/lucenedemo/index_backup'
+  bufferSize: 256
+
+spring:
+  jackson: 
+    date-format: 'yyyy-MM-dd HH:mm:ss'
+    time-zone: 'GMT+8'
